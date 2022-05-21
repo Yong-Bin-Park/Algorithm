@@ -1,4 +1,5 @@
-firstNum,secondNum = map(int, input('두 개의 정수를 입력하세요.').split())
+#int형으로 받아야하므로 map()안에 넣어주면 input, split모두 int형으로 바꿀 수 있음
+firstNum,secondNum = map(int, input().split())
 
 if firstNum > secondNum:
     print('>')
